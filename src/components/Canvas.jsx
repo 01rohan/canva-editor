@@ -5,8 +5,8 @@ import { select, toggleSelect, updateElement } from "../store/canvasSlice";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 
-const CANVAS_W = 600;
-const CANVAS_H = 350;
+const CANVAS_W = 800;
+const CANVAS_H = 500;
 const SNAP_THRESHOLD = 8;
 
 function ElementRenderer({ el }) {

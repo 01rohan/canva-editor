@@ -1,4 +1,3 @@
-// hooks/useUndoRedo.js
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { undo, redo } from "../store/canvasSlice";
