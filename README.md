@@ -83,7 +83,7 @@ git clone https://github.com/01rohan/canva-editor.git
 cd canva-editor
 
 # 2. Install dependencies
-npm install
+npm install --force
 
 # 3. Start development server
 npm run dev
